@@ -1,0 +1,139 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    padding: 20px;
+    border-bottom: 1px solid #444;
+    position: relative;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* STICKY BUTTON */
+.sticky-offer-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    color: #000;
+    padding: 12px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.sticky-offer-btn:hover {
+    background: #ccc;
+}
+
+/* HERO SECTION */
+.hero {
+    padding: 60px 20px;
+}
+
+.main-cta {
+    display: inline-block;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.main-cta:hover {
+    background: #ccc;
+}
+
+/* BANNERS */
+.banner-large {
+    margin: 30px 0;
+}
+
+.banner-large img {
+    max-width: 100%;
+}
+
+/* CONTENT */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.text-content {
+    max-width: 400px;
+    text-align: left;
+}
+
+.text-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.text-content li {
+    margin: 10px 0;
+}
+
+/* SIDE BANNER */
+.side-banner img {
+    max-width: 100%;
+}
+
+/* VERTICAL BANNER */
+.vertical-banner {
+    margin: 40px 0;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    padding: 40px 20px;
+    border-top: 1px solid #444;
+}
+
+.footer-buttons a {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.whatsapp-btn {
+    background: #fff;
+    color: #000;
+}
+
+.call-btn {
+    background: #444;
+    color: #fff;
+}
+
+.footer-buttons a:hover {
+    opacity: 0.8;
+}
